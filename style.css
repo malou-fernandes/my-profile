@@ -1,0 +1,113 @@
+/* Colors and fonts */
+body { 
+	background: #ffeadb;
+  color: purple;
+	font-family: 'Lora', sans-serif;
+	font-size: 17px;
+ }
+
+h1, h2, h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+h1{
+	color: red;
+    font-size: 32px;
+    font-weight: 900;
+}
+h2 {
+  color: red;
+    font-size: 24px;
+    font-weight: 300;
+}
+a { 
+	font-family: 'Inconsolata', monospace;
+   text-decoration: none;
+   color: purple;
+   font-weight: bold;
+   font-size: 16px; 
+}
+a:hover {
+	color: yellow;
+}
+
+
+
+
+/* Custom design with class */
+.card-white{    background: #fff0f0;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+
+.card-pink{
+  background: pink;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+width: 750px;
+margin: 50px auto;
+}
+
+.img-circle {
+  border-radius: 20%;
+  margin: 50px auto;
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 580px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.btn-red{
+  background-color: purple;
+  color: red;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+.btn-purple:hover {
+  background-color: white;
+  color: red;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i{
+  font-size: 50px;
+
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+
+#introduction p {
+  margin-bottom: 40px;
+}
